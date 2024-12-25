@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import News from './News';
 
-export default function () {
+export default function Rightsidebar() {
   const router = useRouter()
   const [input, setInput] = useState('');
   const handleSubmit = (e) => {
